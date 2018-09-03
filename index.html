@@ -7,11 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     
+    section {
+    display: -webkit-flex;
+    display: flex;
+    }   
+
+    nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+    }
+
     nav {
     float: left;
     width: 30%;
     height: 300px;
     padding: 20px;
+    }
+
+    article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
     }
 
     article {
