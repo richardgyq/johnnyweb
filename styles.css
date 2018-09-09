@@ -32,7 +32,7 @@ article {
     padding: 10px;
 }
 
-aside {
+figure {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
